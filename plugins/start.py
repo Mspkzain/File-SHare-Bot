@@ -93,11 +93,11 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⚡️ Aʙᴏᴜᴛ Mᴇ", callback_data = "about"),
-                    InlineKeyboardButton("Cʟᴏsᴇ 🔒", callback_data = "close")
+                    InlineKeyboardButton("New Movies", url="https://t.me/Noon_Show")],
+                    [InlineKeyboardButton("Group", url="https://t.me/NS_File")
                 ],
                 [
-                    InlineKeyboardButton("🖥️ Hᴏᴡ Tᴏ Oᴡɴ Tʜɪs Bᴏᴛ 🖥️", url="https://youtu.be/ep3u-n_DI_Q")
+                    InlineKeyboardButton("Request Group", url="https://t.me/MovieRequestGroup_NS")
                 ]
             ]
         )
